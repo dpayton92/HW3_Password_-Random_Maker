@@ -1,0 +1,63 @@
+body {
+    background-color: #413D3D;
+}
+ 
+.container {
+    width: 600px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: rgb(97, 35, 35);
+    padding: 10px 50px 50px 50px;
+    border: 2px solid #9fb373;
+    
+}
+ 
+.flex h1 {
+    font-family: "sans-serif";
+    background-color: rgb(255, 145, 1);
+    font-size: 60px;
+    text-align: center;
+    color: #0f0f0f;
+    padding: 2px 0px;
+    
+}
+ 
+#score {
+    color: rgb(1, 255, 192);
+    text-align: center;
+    font-size: 30px;
+}
+ 
+.flex #question {
+    font-family: "monospace";
+    font-size: 30px;
+    color: #01BBFF;
+}
+ 
+.buttons {
+    margin-top: 30px;
+}
+ 
+#btn0, #btn1, #btn2, #btn3,#btn4 {
+    background-color: rgb(255, 145, 1);
+    width: 250px;
+    font-size: 20px;
+    color:  #0f0f0f;
+    border: 1px solid #1D3C6A;
+    margin: 10px 40px 10px 0px;
+    padding: 10px 10px;
+}
+ 
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover, #btn4:hover  {
+    cursor: pointer;
+    background-color: #01BBFF;
+}
+ 
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus, #btn4:focus {
+    outline: 0;
+}
+ 
+#progress {
+    color: #01BBFF;
+    font-size: 18px;
+}
