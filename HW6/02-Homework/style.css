@@ -1,0 +1,24 @@
+body {
+    background: #dce2e5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 11px;
+  }
+  
+  .component__weather-box {
+    margin: 30px auto;
+    width: 420px;
+    border: 1px solid #de6042;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 2px 5px 20px 1px #444;
+  }
+  
+  .component__weather-content {
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    background: #E06B4F;
+    height: 120px;
+  }
+  
