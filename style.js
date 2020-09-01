@@ -46,12 +46,12 @@ if (specialC = true) {
 
 var newPWstr = newPassWd.join("");
  
-var password = "";
+var PassWD = "";
 
 
 for (var i = 0; i < pWlenght; i++) {
 var genChr = newPWstr.charAt(Math.floor(Math.random() * newPWstr.length));
-password = password.concat(genChr);
+PassWD = PassWD.concat(genChr);
 
 
 }
@@ -60,8 +60,8 @@ password = password.concat(genChr);
 alert("click generate password below to receive your new password");
 
 
-function generatePW() {
-   document.getElementById("passWD-text").textContent = password;
+function generatePassWD() {
+   document.getElementById("passWD-text").textContent = PassWD;
 }
 function copy() {
      document.getElementById("passWD-text").select();
@@ -70,7 +70,7 @@ function copy() {
   }
   
   
-  console.log(password);
+  console.log(PassWD);
   console.log(pWlenght);
   console.log(upperC);
   console.log(lowerC);

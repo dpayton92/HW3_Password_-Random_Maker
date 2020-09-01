@@ -114,7 +114,7 @@ button[disabled] {
   float: right;
 }
 
-#password {
+#PassWD {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -142,7 +142,7 @@ button[disabled] {
     padding: 10px 15px;
   }
 
-  #password {
+  #PassWD{
     font-size: 1rem;
   }
 }
